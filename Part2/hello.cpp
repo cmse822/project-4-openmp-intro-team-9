@@ -23,7 +23,7 @@ int main(int argc, char *argv[]) {
         int tid = omp_get_thread_num(); // Get the thread ID
         int num_threads = omp_get_num_threads(); // Get the total number of threads
 
-        #pragma omp critical // Critical section to manage orderly output
+        #pragma omp critical // Here critical section to manage orderly output
         {
             std::cout << "Hello from MPI rank " << rank << ", thread " << tid << " of " << num_threads << std::endl;
         }
