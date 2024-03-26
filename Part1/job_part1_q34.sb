@@ -9,7 +9,7 @@
 # Specify the directory containing your executable files
 cd $SLURM_SUBMIT_DIR   
 
-c++ -fopenmp mat_multi_omp.cpp -o matmulti_opm
+c++ -fopenmp mat_multi_omp.cpp -o matmulti_omp
 # Define matrix sizes and thread counts
 matrix_sizes=(20 100 1000)
 thread_counts=(1 2 4 8 16 32 64 128)
@@ -18,7 +18,7 @@ thread_counts=(1 2 4 8 16 32 64 128)
 for size in "${matrix_sizes[@]}"; do
     for threads in "${thread_counts[@]}"; do
         export OMP_NUM_THREADS=$threads
-        file="matmulti_opm"
+        file="matmulti_omp"
         
         # Check if the file is executable
         if [ -x "$file" ]; then

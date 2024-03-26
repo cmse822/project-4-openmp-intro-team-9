@@ -53,9 +53,8 @@ int main(int argc, char* argv[]) {
             
             #pragma omp for
             for (i = 0; i < N; ++i) {
-                #pragma omp for
                 for (j = 0; j < N; ++j) {
-                    #pragma omp for reduction(+:sum)
+                    #pragma omp simd reduction(+:sum)
                     for (k = 0; k < N; ++k) {
                         sum += A[i][k] * B[k][j];
                     }
