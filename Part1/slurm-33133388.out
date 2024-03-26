@@ -1,0 +1,168 @@
+Running matmulti_omp with matrix size 20 and 1 threads...
+Results appended to results.csv
+
+real	0m0.015s
+user	0m0.004s
+sys	0m0.003s
+----------------------------------------
+Running matmulti_omp with matrix size 20 and 2 threads...
+Results appended to results.csv
+
+real	0m0.012s
+user	0m0.003s
+sys	0m0.003s
+----------------------------------------
+Running matmulti_omp with matrix size 20 and 4 threads...
+Results appended to results.csv
+
+real	0m0.010s
+user	0m0.003s
+sys	0m0.003s
+----------------------------------------
+Running matmulti_omp with matrix size 20 and 8 threads...
+Results appended to results.csv
+
+real	0m0.011s
+user	0m0.002s
+sys	0m0.004s
+----------------------------------------
+Running matmulti_omp with matrix size 20 and 16 threads...
+Results appended to results.csv
+
+real	0m0.011s
+user	0m0.004s
+sys	0m0.004s
+----------------------------------------
+Running matmulti_omp with matrix size 20 and 32 threads...
+Results appended to results.csv
+
+real	0m0.013s
+user	0m0.004s
+sys	0m0.005s
+----------------------------------------
+Running matmulti_omp with matrix size 20 and 64 threads...
+Results appended to results.csv
+
+real	0m0.017s
+user	0m0.005s
+sys	0m0.008s
+----------------------------------------
+Running matmulti_omp with matrix size 20 and 128 threads...
+Results appended to results.csv
+
+real	0m0.026s
+user	0m0.008s
+sys	0m0.011s
+----------------------------------------
+Running matmulti_omp with matrix size 100 and 1 threads...
+Results appended to results.csv
+
+real	0m0.116s
+user	0m0.105s
+sys	0m0.005s
+----------------------------------------
+Running matmulti_omp with matrix size 100 and 2 threads...
+Results appended to results.csv
+
+real	0m0.114s
+user	0m0.108s
+sys	0m0.002s
+----------------------------------------
+Running matmulti_omp with matrix size 100 and 4 threads...
+Results appended to results.csv
+
+real	0m0.116s
+user	0m0.106s
+sys	0m0.002s
+----------------------------------------
+Running matmulti_omp with matrix size 100 and 8 threads...
+Results appended to results.csv
+
+real	0m0.116s
+user	0m0.106s
+sys	0m0.003s
+----------------------------------------
+Running matmulti_omp with matrix size 100 and 16 threads...
+Results appended to results.csv
+
+real	0m0.117s
+user	0m0.105s
+sys	0m0.005s
+----------------------------------------
+Running matmulti_omp with matrix size 100 and 32 threads...
+Results appended to results.csv
+
+real	0m0.123s
+user	0m0.112s
+sys	0m0.004s
+----------------------------------------
+Running matmulti_omp with matrix size 100 and 64 threads...
+Results appended to results.csv
+
+real	0m0.122s
+user	0m0.105s
+sys	0m0.010s
+----------------------------------------
+Running matmulti_omp with matrix size 100 and 128 threads...
+Results appended to results.csv
+
+real	0m0.129s
+user	0m0.112s
+sys	0m0.009s
+----------------------------------------
+Running matmulti_omp with matrix size 1000 and 1 threads...
+Results appended to results.csv
+
+real	1m55.646s
+user	1m55.593s
+sys	0m0.020s
+----------------------------------------
+Running matmulti_omp with matrix size 1000 and 2 threads...
+Results appended to results.csv
+
+real	1m54.158s
+user	1m54.102s
+sys	0m0.017s
+----------------------------------------
+Running matmulti_omp with matrix size 1000 and 4 threads...
+Results appended to results.csv
+
+real	1m52.611s
+user	1m52.560s
+sys	0m0.018s
+----------------------------------------
+Running matmulti_omp with matrix size 1000 and 8 threads...
+Results appended to results.csv
+
+real	1m54.172s
+user	1m54.114s
+sys	0m0.027s
+----------------------------------------
+Running matmulti_omp with matrix size 1000 and 16 threads...
+Results appended to results.csv
+
+real	1m55.891s
+user	1m55.844s
+sys	0m0.024s
+----------------------------------------
+Running matmulti_omp with matrix size 1000 and 32 threads...
+Results appended to results.csv
+
+real	1m56.185s
+user	1m56.141s
+sys	0m0.019s
+----------------------------------------
+Running matmulti_omp with matrix size 1000 and 64 threads...
+Results appended to results.csv
+
+real	2m18.767s
+user	2m18.704s
+sys	0m0.029s
+----------------------------------------
+Running matmulti_omp with matrix size 1000 and 128 threads...
+Results appended to results.csv
+
+real	1m54.977s
+user	1m54.902s
+sys	0m0.026s
+----------------------------------------
