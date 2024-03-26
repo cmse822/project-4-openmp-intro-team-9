@@ -1,0 +1,8 @@
+Hello from MPI rank 0, thread 0 of 4
+Hello from MPI rank 0, thread 3 of 4
+Hello from MPI rank 0, thread 2 of 4
+Hello from MPI rank 0, thread 1 of 4
+Hello from MPI rank 1, thread 0 of 4
+Hello from MPI rank 1, thread 3 of 4
+Hello from MPI rank 1, thread 2 of 4
+Hello from MPI rank 1, thread 1 of 4
