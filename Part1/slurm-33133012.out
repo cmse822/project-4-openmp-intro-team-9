@@ -1,0 +1,21 @@
+Running matmulti with matrix size 20...
+Results appended to results.csv
+
+real	0m0.014s
+user	0m0.004s
+sys	0m0.003s
+----------------------------------------
+Running matmulti with matrix size 100...
+Results appended to results.csv
+
+real	0m0.301s
+user	0m0.292s
+sys	0m0.002s
+----------------------------------------
+Running matmulti with matrix size 1000...
+Results appended to results.csv
+
+real	5m15.890s
+user	5m15.810s
+sys	0m0.045s
+----------------------------------------

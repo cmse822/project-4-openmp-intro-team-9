@@ -1,0 +1,17 @@
+#!/bin/bash
+
+#SBATCH --nodes=2
+#SBATCH --ntasks-per-node=1
+#SBATCH --time=00:04:00
+#SBATCH --mem=3gb
+#SBATCH --job-name hello_world
+
+# Specify the directory containing your executable files
+cd $SLURM_SUBMIT_DIR   
+
+export OMP_NUM_THREADS=4
+mpic++ -fopenmp hello.cpp -o hello
+
+file="hello"
+
+mpiexec -n 2 ./"$file"
